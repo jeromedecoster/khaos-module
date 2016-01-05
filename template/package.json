@@ -1,0 +1,20 @@
+{
+  "name": "{{name}}",
+  "version": "0.0.0",
+  "description": "{{description}}",
+  "repository": "jeromedecoster/{{name}}",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start": "onchange {index,test}.js -- npm test",
+    "test": "tape test.js | tap-min"
+  },
+  "devDependencies": {
+    "onchange": "^2.0.0",
+    "tap-min": "^1.0.0",
+    "tape": "^4.2.2"
+  },
+  "license": "MIT"
+}
