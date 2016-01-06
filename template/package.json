@@ -1,8 +1,8 @@
 {
-  "name": "{{name}}",
+  "name": "{{basename}}",
   "version": "0.0.0",
-  "description": "{{description}}",
-  "repository": "jeromedecoster/{{name}}",
+  "description": "{{basename}} module",
+  "repository": "jeromedecoster/{{basename}}",
   "main": "index.js",
   "files": [
     "index.js"

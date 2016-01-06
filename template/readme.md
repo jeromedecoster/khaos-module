@@ -1,11 +1,11 @@
-# {{name}}
+# {{basename}}
 
-> {{description}}
+> {{basename}} module
 
 ## Install
 
 ```bash
-npm i jeromedecoster/{{name}}
+npm i jeromedecoster/{{basename}}
 ```
 
 ## License

@@ -1,6 +1,6 @@
 
 const test = require('tape')
-const {{name}} = require('.')
+const {{basename}} = require('.')
 
 const skip = false
 
